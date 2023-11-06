@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: brown;
+}
+.top-bar img{
+    width: 45px;
+}
+.container{
+    display: block;
+    max-width: 992px;
+    min-width: 320px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.bot-bar{
+    background-color: brown;
+    height:8vh;
+    text-align: center;
+}
